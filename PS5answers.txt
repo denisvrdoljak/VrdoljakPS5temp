@@ -1,0 +1,45 @@
+Denis Vrdoljak
+W241 section2
+Problem Set 5
+
+
+1.A
+ income ~ years_education:
+ (Intercept)     -23354.64    1252.74  -18.64   <2e-16 ***
+years_education   5750.48      83.34   69.00   <2e-16 ***
+#$5,750 per extra year of education00000000
+
+1.B
+The regression suggests that income is highly dependant on education, with a regression of $5.7k per extra year of school. However, it is possible that this may be biased, as students more likely to be able to afford more years in school, including not working during those years, are more likely to come from financially successful families/backgrounds, and are more likely to similarly end up financially successful due to the connections that come with having come from that type of background/family. In other words, both income and years education are dependant on a third variable, family income or family background, which is not in this dataset. 
+
+1.C
+
+Using Clustered S.E.
+t test of coefficients:
+               Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)    60761.89     244.36 248.656 < 2.2e-16 ***
+draft_highTRUE  6637.55     511.90  12.966 < 2.2e-16 ***
+t test of coefficients:
+
+                Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)    14.434305   0.017703 815.345 < 2.2e-16 ***
+draft_highTRUE  2.125756   0.038188  55.666 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+---
+1.D
+Using Clustered S.E.
+t test of coefficients:
+               Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)    60761.89     244.36 248.656 < 2.2e-16 ***
+draft_highTRUE  6637.55     511.90  12.966 < 2.2e-16 ***
+-
+
+1.E
+[1] 3122.444
+About $3122 per year of education
+
+1.F
+Having a high draft number can affect a person by causing stress over an uncertain future, which would cause them to work harder during those years, and lead to higher income. Alternatively, a person with a higher draft number was more likely to be drafted, and if they were to survive that experience and be in the dataset here, they would be considered a war vet or war hero, and would be more likely to get better pay due to their military service.
+
+1.G
